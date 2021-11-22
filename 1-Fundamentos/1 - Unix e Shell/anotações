@@ -1,0 +1,12 @@
+touch: cria arquivos vazios de txt
+echo: repete | ex: echo 'Olá'
+echo 'cachorro' > animais.txt  | > sobrescreve ou cria arquivos
+echo 'cachorro' >> animais.txt | >> insere
+history: mostra o historico de comandos feitos
+| = pipe: pode combinar comandos
+find: encontrar
+find . : encontra tudo no local
+find . -type d: encontra diretorios
+find . -name "edkasdj.txt" : procura pelo nome
+find . -name "*cores*" : procura pelo nome indepente do que tem antes e depois
+three: encontra arquivos em estruras de arvores
